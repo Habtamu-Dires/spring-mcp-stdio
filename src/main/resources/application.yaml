@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-io-mcp
+  main:
+    banner-mode: off
+    web-application-type: none
+  ai:
+    mcp.server:
+      name: spring-io-session-mcp
+      stdio: true
+      version: 0.0.1
+# disable banner and logging for stdio transport
+logging.level.root: OFF
+
+
+
